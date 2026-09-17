@@ -1,0 +1,20 @@
+# Dependencias
+/vendor/
+
+# Entorno (nunca versionar credenciales)
+.env
+
+# Almacenamiento generado en runtime
+/storage/logs/*.log
+/storage/cache/*
+/storage/uploads/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+!/storage/uploads/.gitkeep
+
+# Sistema / editores
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.swp
